@@ -1,0 +1,26 @@
+rules,support,confidence,lift,count
+"{Deli Fresh Honey Smoked Turkey Breast, 98% Fat Free, Gluten Free} => {Banana}",0.001016777,1,6.502479339,4
+{Quaker Life Cinnamon Cereal} => {Banana},0.001016777,1,6.502479339,4
+{Mediterranee Strawberry Yogurt} => {Coconut Yogurt},0.001016777,1,786.8,4
+{Organic Chamomile with Lavender Herbal Tea Bags} => {Bag of Organic Bananas},0.001016777,1,7.71372549,4
+"{Blueberry on the Bottom Nonfat Greek Yogurt,Pomegranate on the Bottom Non-Fat Greek Yogurt} => {Peach on the Bottom Nonfat Greek Yogurt}",0.001016777,1,262.2666667,4
+"{Peach on the Bottom Nonfat Greek Yogurt,Pomegranate on the Bottom Non-Fat Greek Yogurt} => {Blueberry on the Bottom Nonfat Greek Yogurt}",0.001016777,1,393.4,4
+"{Celery Hearts,Organic Raspberries} => {Bag of Organic Bananas}",0.001016777,1,7.71372549,4
+"{Organic Bread with 21 Whole Grains,Organic Large Grade AA Brown Eggs} => {Bag of Organic Bananas}",0.001016777,1,7.71372549,4
+"{Organic Cilantro,Organic Roma Tomato} => {Organic Baby Spinach}",0.001016777,1,14.30545455,4
+"{Organic Cucumber,Organic Roma Tomato} => {Organic Baby Spinach}",0.001016777,1,14.30545455,4
+"{Organic Raspberries,Organic Yellow Peaches} => {Organic Strawberries}",0.001270971,1,12.03058104,5
+"{Ground Turkey Breast,Organic Whole String Cheese} => {Bag of Organic Bananas}",0.001016777,1,7.71372549,4
+"{Organic Diced Tomatoes,Organic Raspberries} => {Bag of Organic Bananas}",0.001270971,1,7.71372549,5
+"{Organic Cilantro,Organic Coconut Milk} => {Limes}",0.001525165,1,25.54545455,6
+"{Organic Green Seedless Grapes,Original Hummus} => {Organic Strawberries}",0.001016777,1,12.03058104,4
+"{Organic Carrot Bunch,Organic Garlic} => {Organic Yellow Onion}",0.001016777,1,27.70422535,4
+"{Organic Grade A Free Range Large Brown Eggs,Organic Lemon} => {Bag of Organic Bananas}",0.001270971,1,7.71372549,5
+"{2% Reduced Fat Milk,Strawberries} => {Banana}",0.001016777,1,6.502479339,4
+"{Organic Strawberries,Shredded Parmesan} => {Banana}",0.001016777,1,6.502479339,4
+"{Boneless Skinless Chicken Breasts,Organic Whole String Cheese} => {Banana}",0.001016777,1,6.502479339,4
+"{Frozen Organic Wild Blueberries,Organic Gala Apples} => {Organic Whole Strawberries}",0.001016777,1,72.85185185,4
+"{100% Whole Wheat Bread,Organic Raspberries} => {Bag of Organic Bananas}",0.001525165,1,7.71372549,6
+"{Half & Half,Organic Garlic} => {Bag of Organic Bananas}",0.001016777,1,7.71372549,4
+"{Organic Blackberries,Organic Cilantro} => {Bag of Organic Bananas}",0.001016777,1,7.71372549,4
+"{100% Whole Wheat Bread,Organic Baby Spinach,Organic Strawberries} => {Bag of Organic Bananas}",0.001016777,1,7.71372549,4
