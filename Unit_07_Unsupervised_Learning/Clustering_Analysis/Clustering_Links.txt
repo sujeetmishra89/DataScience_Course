@@ -1,0 +1,6 @@
+https://www.kdnuggets.com/2019/09/hierarchical-clustering.html
+https://towardsdatascience.com/understanding-the-concept-of-hierarchical-clustering-technique-c6e8243758ec
+https://www.analyticsvidhya.com/blog/2019/05/beginners-guide-hierarchical-clustering/
+
+https://www.analyticsvidhya.com/blog/2019/08/comprehensive-guide-k-means-clustering/
+https://towardsdatascience.com/understanding-k-means-clustering-in-machine-learning-6a6e67336aa1
