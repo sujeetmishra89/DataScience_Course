@@ -10,6 +10,22 @@ from plyer import notification
 # import pkgutil
 print("Loaded System Packages")
 
+# dir()
+# get_ipython().run_line_magic('reset', '-f') # %reset -f
+# get_ipython().run_line_magic('matplotlib', 'inline') # %matplotlib inline
+# get_ipython().run_line_magic('history', '-n') # %history -n
+# get_ipython().run_line_magic('load_ext', 'autoreload') # %load_ext autoreload
+# get_ipython().run_line_magic('autoreload', '2') # %autoreload 2
+# from IPython.display import Image, SVG, HTML, display, clear_output
+# import ipykernel
+# import ipyparallel as ipp
+# import ipywidgets as widgets
+# from ipywidgets import interact, interact_manual
+# from tqdm.keras import TqdmCallback
+# from tqdm._tqdm_notebook import tqdm_notebook
+# tqdm_notebook.pandas()
+print("Loaded Jupyter-Notebook Packages")
+
 import pandas as pd
 pd.options.mode.chained_assignment = None
 pd.options.display.max_columns = 100
@@ -38,46 +54,20 @@ from collections import Counter, defaultdict
 # import unittest
 print("Loaded Dataframe Packages")
 
-import matplotlib
-import matplotlib.pyplot as plt
-from matplotlib import cm, colors
-from matplotlib.pyplot import plot
-from matplotlib.widgets import Button
-from matplotlib.text import Annotation
-# plt.style.use('seaborn')
-# plt.ioff()
-import seaborn as sns
-# import tkinter as tk
-# import pandas_profiling as pf
-# from mayavi import mlab
-# from mpl_toolkits.mplot3d import Axes3D 
-# import pylab as pl
-# import pydot, pydotplus
-# import chart_studio.plotly as py
-# import plotly
-# import plotly.graph_objs as go
-# from plotly.subplots import make_subplots
-# from plotly.offline import download_plotlyjs, init_notebook_mode, iplot
-# # init_notebook_mode(connected=True)
-# import cufflinks as cf
-# # cf.go_offline()
-# # cf.set_config_file(offline=False, world_readable=True)
-# from graphviz import Source
-# os.environ["PATH"] += os.pathsep + 'C:/Program Files (x86)/Graphviz2.38/bin/'
-print("Loaded Visualisation Packages")
-
 from datetime import datetime, date, time, timedelta
 from dateutil.parser import parse as dateparser
 from pytz import timezone
 import time
 print("Loaded Datetime Packages")
 
-# from lmfit import Model
 import statsmodels.api as sm
 # from statsmodels.formula.api import ols
 # from statsmodels.graphics.tsaplots import plot_acf
+from statsmodels.tsa.stattools import acf
+from statsmodels.stats.outliers_influence import variance_inflation_factor
 import xgboost
 from xgboost import XGBClassifier, XGBRegressor
+# from lmfit import Model
 # import networkx 
 # from networkx.algorithms.components.connected import connected_components
 from yellowbrick.cluster import KElbowVisualizer
@@ -169,21 +159,33 @@ print("Loaded Deep Learning Packages")
 # from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
 print("Loaded Web Packages")
 
-# dir()
-# get_ipython().run_line_magic('reset', '-f') # %reset -f
-# get_ipython().run_line_magic('matplotlib', 'inline') # %matplotlib inline
-# get_ipython().run_line_magic('history', '-n') # %history -n
-# get_ipython().run_line_magic('load_ext', 'autoreload') # %load_ext autoreload
-# get_ipython().run_line_magic('autoreload', '2') # %autoreload 2
-# from IPython.display import Image, SVG, HTML, display, clear_output
-# import ipykernel
-# import ipyparallel as ipp
-# import ipywidgets as widgets
-# from ipywidgets import interact, interact_manual
-# from tqdm.keras import TqdmCallback
-# from tqdm._tqdm_notebook import tqdm_notebook
-# tqdm_notebook.pandas()
-print("Loaded Notebook Packages")
+import matplotlib
+import matplotlib.pyplot as plt
+from matplotlib import cm, colors
+from matplotlib.pyplot import plot
+from matplotlib.widgets import Button
+from matplotlib.text import Annotation
+# plt.style.use('seaborn')
+# plt.ioff()
+import seaborn as sns
+# import tkinter as tk
+# import pandas_profiling as pf
+# from mayavi import mlab
+# from mpl_toolkits.mplot3d import Axes3D 
+# import pylab as pl
+# import pydot, pydotplus
+# import chart_studio.plotly as py
+# import plotly
+# import plotly.graph_objs as go
+# from plotly.subplots import make_subplots
+# from plotly.offline import download_plotlyjs, init_notebook_mode, iplot
+# # init_notebook_mode(connected=True)
+# import cufflinks as cf
+# # cf.go_offline()
+# # cf.set_config_file(offline=False, world_readable=True)
+# from graphviz import Source
+# os.environ["PATH"] += os.pathsep + 'C:/Program Files (x86)/Graphviz2.38/bin/'
+print("Loaded Visualisation Packages")
 
 # with open("..\\..\\Personal\\config.json") as conf: config = json.load(conf)
 # mail_frm = config["environment"][0]["mail_frm"]
@@ -495,4 +497,3 @@ def pred_importance(df,pred_list,op_folder):
 	output_result = output_result.reset_index().rename(columns={'index':'Features',0:'rmse'}).sort_values('rmse', ascending=False).reset_index(drop=True)
 	output_result.to_csv(os.path.join(folder,target+"_"+op_folder+"_"+current_time+".csv"), index=False)
 	return output_result
-
